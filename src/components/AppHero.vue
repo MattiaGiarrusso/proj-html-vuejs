@@ -40,7 +40,7 @@ export default {
         <div class="row">
             <div class="col-7">
                 <div>
-                    <h2>Start investing in you</h2>
+                    <h1 class="fw-lighter">Start investing in you</h1>
                     <span>With over 1200 courses in 18 subject, you're guaranteed to find something that's right for you.</span>
                 </div>
                 <div class="pt-3">
@@ -58,11 +58,11 @@ export default {
         <div class="row ms-row-hero mt-5 px-2">
             <div v-for="box in boxs" class="col ms-rettangular px-3 d-flex flex-column justify-content-between">
                 <div class="pt-3">
-                    <i class="fa-solid fs-1" :class="box.icon"></i>
+                    <i class="fa-solid ms-text-blue fs-1" :class="box.icon"></i>
                 </div>
                 <div>
-                    <strong>{{ box.title }}</strong>
-                    <p class="ms-fs-12">{{ box.paragraph }}</p>                    
+                    <strong class="ms-fs-12">{{ box.title }}</strong>
+                    <p class="text-start ms-fs-12">{{ box.paragraph }}</p>                    
                 </div>
             </div>            
         </div>

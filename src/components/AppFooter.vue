@@ -6,16 +6,23 @@ export default {
         return {
             links: ['Characters','Comics','Movies','TV','Games','Videos'],
             blog: [
-        {
-            text: 'Courses',
-            badge: null
-        },
-        {
-            text: 'Zoom',
-            badge: true
-        },
-        ]
+           {
+            title: 'Our main target is to "Developing Yourself as a Leader"',
+            subtitle: '- August 9, 2018',
+            image: 'photo-1517520287167-4bbf64a00d66-69x69.jpeg',
+           },
+           {
+            title: "Those Other College Expenses You Aren't Thinking About",
+            subtitle: '- June 3, 2015',
+            image: 'photo-1490376840453-5f616fbebe5b-69x69.jpeg',
+           },
+          ]
         }
+    },
+    methods: {
+            getImageUrl(name) {
+                return new URL(`../assets/img/${name}`, import.meta.url).href;
+            }
     }
 }
 
@@ -63,8 +70,19 @@ export default {
                 </div>
             </div>
 
-            <div class="col-3">
-                <h6>Blog</h6>
+            <div class="col-3 ms-blog-height">
+                <h6 class="mb-4">Blog</h6>
+
+                <div v-for="bar in blog" class="row mb-3 border-0">
+                    <div class="col-4">
+                        <img :src="getImageUrl(bar.image)" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-8 ms-fs-12">
+                        <h5 class="card-title ms-fs-12">{{ bar.title }}</h5>
+                        <p class="card-text"><small class="text-body-secondary">{{ bar.subtitle }}</small></p>
+                    </div>                    
+                </div>
+
             </div>
 
         </div>
@@ -77,9 +95,8 @@ export default {
     height: 80px;
 }
 
-
-
-
-
+.col-4 {
+    padding-bottom: 0px;
+}
 
 </style>
