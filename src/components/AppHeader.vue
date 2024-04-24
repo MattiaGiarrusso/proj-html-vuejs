@@ -10,7 +10,6 @@ export default {
         {
             text: 'Courses',
             badge: null
-
         },
         {
             text: 'Zoom',
