@@ -3,6 +3,7 @@
   import AppHeader from './components/AppHeader.vue';
   import AppHero from './components/AppHero.vue';
   import AppBanner from './components/AppBanner.vue';
+  import AppRecentCourses from './components/AppRecentCourses.vue';
 
   
 
@@ -10,7 +11,8 @@
     components: {
       AppHeader,
       AppHero,
-      AppBanner      
+      AppBanner,
+      AppRecentCourses    
     },
   }
 </script>
