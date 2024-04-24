@@ -116,13 +116,13 @@ export default {
                             <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-pinterest"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-icon-header" href="#"><i class="fa-solid fa-basketball"></i></a>
+                            <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-dribbble"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-git"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-icon-header" href="#"><i class="fa-solid fa-dice-two"></i></a>
+                            <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-flickr"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-linkedin"></i></a>

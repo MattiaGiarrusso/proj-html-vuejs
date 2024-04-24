@@ -11,7 +11,7 @@ export default {
             <div class="row">
                 <div class="col-6">
                     <div class="section-text">
-                        <h1>Learning limitless, more possibilities</h1>
+                        <h2 class="fw-lighter">Learning limitless, more possibilities</h2>
                         <p>Online courses open the opportunity for learning to almost anyone, regardless of their scheduling commitments.</p>
                     </div>
                     <div class="section-button">
@@ -36,8 +36,8 @@ export default {
 .row {
     padding: 50px 60px;
 
-    h1 {
-        font-weight: 300;
+    h2 {
+        padding-right: 100px;
     }
 }
 
