@@ -1,8 +1,11 @@
 <script>
+import { store } from '../store.js'
+
 export default {
     name: 'AppHeader',
     data() {
         return {
+        store,
         links: [
         {
             text: 'Courses',
@@ -34,37 +37,8 @@ export default {
             badge: null
         },
         ],
-
-        icons: [
-        {
-            icon: '<i class="fa-brands fa-x-twitter"></i>',
-        },
-        {
-            icon: '<i class="fa-brands fa-facebook"></i>',
-        },
-        {
-            icon: '<i class="fa-brands fa-behance"></i>',
-        },
-        {
-            icon: '<i class="fa-brands fa-pinterest"></i>',
-        },
-        {
-            icon: '<i class="fa-solid fa-basketball"></i>',
-        },
-        {
-            icon: '<i class="fa-brands fa-git"></i>',
-        },
-        {
-            icon: '<i class="fa-solid fa-dice-two"></i>',
-        },
-        {
-            icon: '<i class="fa-brands fa-linkedin"></i>',
-        },
-        ],
-    }
-
-    }
-    
+       }
+    }    
 }
 </script>
 
@@ -103,29 +77,8 @@ export default {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-facebook"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-behance"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-pinterest"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-dribbble"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-git"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-flickr"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ms-icon-header" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <li v-for="icon in store.socialIcons" class="nav-item">
+                            <a class="nav-link ms-icon-header" href="#"><i class="fa-brands" :class="icon.icon"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -171,7 +124,7 @@ export default {
     
             <div class="ms-btn-group d-flex gap-3">
                 <button class="btn ms-btn-white ms-fs-12" type="button"><i class="fa-regular fa-user"></i> Log in</button>
-                <button class="btn ms-btn-blue rounded-pill ms-fs-12" type="button">SIGN UP</button>
+                <button class="btn ms-btn-blue rounded-pill ms-fs-10" type="button">SIGN UP</button>
                 <button class="btn ms-btn-white ms-fs-12" type="button"><i class="fa-regular fa-bookmark"></i></button>
             </div>
 

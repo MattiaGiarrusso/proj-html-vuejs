@@ -63,7 +63,7 @@ export default {
 
             <div class="row d-flex justify-content-center m-5">
                 <div class="col-2 d-flex justify-content-center">
-                    <button type="button" class="btn ms-btn-blue rounded-pill">SHOW ALL</button>
+                    <button type="button" class="btn ms-btn-blue ms-fs-10 rounded-pill">SHOW ALL</button>
                 </div>
             </div>
 

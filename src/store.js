@@ -1,6 +1,33 @@
 import { reactive } from "vue"
 
 export const store = reactive ({
+
+    socialIcons: [
+      {
+          icon: 'fa-x-twitter',
+      },
+      {
+          icon: 'fa-facebook',
+      },
+      {
+          icon: 'fa-behance',
+      },
+      {
+          icon: 'fa-pinterest',
+      },
+      {
+          icon: 'fa-basketball',
+      },
+      {
+          icon: 'fa-git',
+      },
+      {
+          icon: 'fa-dice-two',
+      },
+      {
+          icon: 'fa-linkedin',
+      },
+      ],
     
     picBoxs: [
         {

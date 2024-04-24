@@ -44,7 +44,7 @@ export default {
                     <span>With over 1200 courses in 18 subject, you're guaranteed to find something that's right for you.</span>
                 </div>
                 <div class="pt-3">
-                    <button type="button" class="btn ms-btn-blue rounded-pill">JOIN FOR FREE</button>
+                    <button type="button" class="btn ms-btn-blue ms-fs-10 rounded-pill">JOIN FOR FREE</button>
                 </div>
             </div>
 

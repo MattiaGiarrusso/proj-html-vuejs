@@ -15,7 +15,7 @@ export default {
                         <p>Online courses open the opportunity for learning to almost anyone, regardless of their scheduling commitments.</p>
                     </div>
                     <div class="section-button">
-                        <button class="btn ms-btn-blue rounded-pill">READ MORE</button>
+                        <button class="btn ms-btn-blue ms-fs-10 rounded-pill">READ MORE</button>
                     </div>
                 </div>
             </div>
