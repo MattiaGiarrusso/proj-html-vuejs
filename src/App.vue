@@ -4,6 +4,7 @@
   import AppHero from './components/AppHero.vue';
   import AppBanner from './components/AppBanner.vue';
   import AppRecentCourses from './components/AppRecentCourses.vue';
+  import AppStats from './components/AppStats.vue';
   import AppFooter from './components/AppFooter.vue';
 
   
@@ -14,6 +15,7 @@
       AppHero,
       AppBanner,
       AppRecentCourses,
+      AppStats,
       AppFooter    
     },
   }
@@ -26,6 +28,7 @@
     <AppHero></AppHero>
     <AppBanner></AppBanner>
     <AppRecentCourses></AppRecentCourses> 
+    <AppStats></AppStats>
   </main>
 
   <footer>

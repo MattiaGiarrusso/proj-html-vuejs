@@ -39,9 +39,9 @@ export default {
                     <span>Development by <a class="text-primary" href="">StylemixThemes</a>.</span>
                 </div>
                 <div class="ms-fs-12 text-secondary">
-                    <i class="fa-brands fa-facebook pe-2"></i>
-                    <i class="fa-brands fa-x-twitter pe-2"></i>
-                    <i class="fa-brands fa-instagram pe-2"></i>
+                    <a class="text-secondary" href=""><i class="fa-brands fa-facebook pe-2"></i></a>
+                    <a class="text-secondary" href=""><i class="fa-brands fa-x-twitter pe-2"></i></a>
+                    <a class="text-secondary" href=""><i class="fa-brands fa-instagram pe-2"></i></a>
                 </div>
             </div>
 
@@ -54,8 +54,8 @@ export default {
                         <span>Fax: + 1 212 375 24 14</span>                
                     </div>
                 </div>
-                <div class="ms-fs-10 text-secondary">
-                    <span>info@masterstudy.com</span>                    
+                <div class="ms-fs-10">
+                    <a class="text-secondary" href="">info@masterstudy.com</a>                   
                 </div>                
             </div>
             
