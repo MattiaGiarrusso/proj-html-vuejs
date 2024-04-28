@@ -48,6 +48,10 @@ export default {
 
 <style scoped lang="scss">
 
+section {
+    background-color: #F0F4FA;
+}
+
 .ms-pagination {
     border: 0px;
 }

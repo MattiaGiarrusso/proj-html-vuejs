@@ -32,7 +32,10 @@ export default {
                     <span v-else class="ms-stars">{{ course.stars }}</span>
 
                     <span class="ms-fs-12"><strong>{{ course.price }}</strong></span>
-                </div>                
+                </div> 
+                <span v-if="course.new" class="badge text-bg-success ms-fs-10">NEW</span> 
+                <span v-if="course.hot" class="badge text-bg-danger ms-fs-10">HOT</span>
+                <span v-if="course.special" class="badge text-bg-warning ms-fs-9">SPECIAL</span>          
             </div>
         </div>
         </template>
@@ -43,9 +46,9 @@ export default {
 
 <style scoped lang="scss">
 
-
 .card {
     width: calc(100%/6);
+    position: relative;
 }
 
 .ms-border-top {
@@ -54,6 +57,13 @@ export default {
 
 .ms-stars {
     color: #f09b23;
+}
+
+.badge {
+    width: 45px;
+    position: absolute;
+    top: 5%;
+    left: 70%;
 }
 
 </style>

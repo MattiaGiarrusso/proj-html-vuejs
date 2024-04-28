@@ -53,42 +53,60 @@ export const store = reactive ({
             subtitle: 'Apache >',
             title: 'Web Coding and Apache Basics',
             hours: '6 hours',
-            price: 'FREE'                
+            price: 'FREE',
+            new: null,
+            hot: null,
+            special: null,       
         },
         {
             image: 'cat_2-272x161.jpg',
             subtitle: 'Art >',
             title: 'Real Things Art Painting by Jason Ni',
             hours: '6 hours',
-            price: '$45'                
+            price: '$45',
+            new: true,
+            hot: null,
+            special: null,               
           },
           {
             image: 'course-preview-272x161.jpg',
             subtitle: 'Software Development >',
             title: 'Basics of MasterStudy',
             stars: '★★★★★',
-            price: 'FREE'                
+            price: 'FREE',
+            new: null,
+            hot: true,
+            special: null,                
           },
           {
             image: 'photo-1496307042754-b4aa456c4a2d-272x161.jpeg',
             subtitle: 'Eletronic >',
             title: 'How to be a DJ? Make Eletronic Music',
             stars: '★★★★★',
-            price: '$49'                
+            price: '$49',
+            new: null,
+            hot: null,
+            special: true,               
           },
           {
             image: 'photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg',
             subtitle: 'Comunication >',
             title: 'Design instruments for Communication',
             hours: '6 hours',
-            price: ''
+            price: '',
+            new: null,
+            hot: null,
+            special: null,
           },
           {
             image: 'cathryn-lavery-67852-unsplash-272x161.jpg',
             subtitle: 'Art >',
             title: 'Make your Concept Right And Beautiful',
             hours: '6 hours',
-            price: '$70'                
+            price: '$70',
+            new: null,
+            hot: null,
+            special: null,                
           },
           
           {
@@ -96,42 +114,60 @@ export const store = reactive ({
             subtitle: 'Bycicling >',
             title: 'Road Bike Manual or How to Be a Champion',
             hours: '6 hours',
-            price: '$20'                
+            price: '$20',
+            new: null,
+            hot: null,
+            special: null,              
         },
         {
             image: 'cristian-grecu-762012-unsplash-min-scaled-272x161.jpg',
             subtitle: 'Documentary >',
             title: 'How to Make Beautiful Landscape photos?',
             hours: '6 hours',
-            price: '$60'                
+            price: '$60',
+            new: null,
+            hot: null,
+            special: null,                
           },
           {
             image: 'landscape-272x161.jpg',
             subtitle: 'Art >',
             title: "Let's paint Van Gogh's Starry Night",
             hours: '6 hours',
-            price: '$79'                
+            price: '$79',
+            new: null,
+            hot: null,
+            special: null,                
           },
           {
             image: '12345-1-272x161.png',
             subtitle: 'Nvidia >',
             title: 'Nvidia and UE4 Technologies Pratice',
             stars: '★★★★★',
-            price: 'FREE'                
+            price: 'FREE',
+            new: null,
+            hot: null,
+            special: true,               
           },
           {
             image: 'jakob-owens-198234-unsplash-min-1-272x161.png',
             subtitle: 'Art >',
             title: 'How to Work with Legendary RED camera?',
             hours: '6 hours',
-            price: 'FREE'
+            price: 'FREE',
+            new: null,
+            hot: null,
+            special: true,
           },
           {
             image: 'promo_tf-272x161.jpg',
             subtitle: 'Software Development >',
             title: 'MasterStudy Mobile LMS App',
             hours: '2 hours',
-            price: 'FREE'                
+            price: 'FREE',
+            new: null,
+            hot: null,
+            special: null,                
           },
     ]
 });
