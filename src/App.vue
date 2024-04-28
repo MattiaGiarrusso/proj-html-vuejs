@@ -5,6 +5,7 @@
   import AppBanner from './components/AppBanner.vue';
   import AppRecentCourses from './components/AppRecentCourses.vue';
   import AppStats from './components/AppStats.vue';
+  import AppPopularCourses from './components/AppPopularCourses.vue';
   import AppFooter from './components/AppFooter.vue';
 
   
@@ -16,6 +17,7 @@
       AppBanner,
       AppRecentCourses,
       AppStats,
+      AppPopularCourses,
       AppFooter    
     },
   }
@@ -29,6 +31,7 @@
     <AppBanner></AppBanner>
     <AppRecentCourses></AppRecentCourses> 
     <AppStats></AppStats>
+    <AppPopularCourses></AppPopularCourses>
   </main>
 
   <footer>

@@ -16,13 +16,13 @@ export const store = reactive ({
           icon: 'fa-pinterest',
       },
       {
-          icon: 'fa-basketball',
+          icon: 'fa-flickr',
       },
       {
           icon: 'fa-git',
       },
       {
-          icon: 'fa-dice-two',
+          icon: 'fa-dribbble',
       },
       {
           icon: 'fa-linkedin',
