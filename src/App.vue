@@ -6,6 +6,7 @@
   import AppRecentCourses from './components/AppRecentCourses.vue';
   import AppStats from './components/AppStats.vue';
   import AppPopularCourses from './components/AppPopularCourses.vue';
+  import AppBecomeSetup from './components/AppBecomeSetup.vue';
   import AppFooter from './components/AppFooter.vue';
 
   
@@ -18,6 +19,7 @@
       AppRecentCourses,
       AppStats,
       AppPopularCourses,
+      AppBecomeSetup,
       AppFooter    
     },
   }
@@ -32,6 +34,7 @@
     <AppRecentCourses></AppRecentCourses> 
     <AppStats></AppStats>
     <AppPopularCourses></AppPopularCourses>
+    <AppBecomeSetup></AppBecomeSetup>
   </main>
 
   <footer>
