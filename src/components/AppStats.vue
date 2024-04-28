@@ -60,6 +60,11 @@ section {
     padding: 0px 180px;
 }
 
+.ms-btn-blue:hover {
+    background-color: #1654b4;
+    color: white;
+}
+
     .ms-bg-title {
         height: 200px;
     }

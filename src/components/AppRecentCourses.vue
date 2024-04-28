@@ -91,5 +91,9 @@ nav {
     margin: 0 auto;
 }
 
+.ms-btn-blue:hover {
+    background-color: #1654b4;
+    color: white;
+}
 
 </style>

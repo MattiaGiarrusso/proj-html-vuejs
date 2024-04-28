@@ -28,7 +28,7 @@ export default {
 </script>
 
 <template>
- <div class="row ms-container">
+ <div class="container ms-container d-flex">
 
     <div class="col-6 d-flex align-items-center" v-for="card in cards">
         <div class="ms-30 pe-4">
@@ -46,6 +46,15 @@ export default {
 </template>
 
 <style scoped lang="scss">
+
+.ms-btn-blue:hover {
+    background-color: #46C197;
+    color: white;
+}
+
+.ms-container {
+    gap: 20px
+}
 
 .col-6 {
     height: 250px;

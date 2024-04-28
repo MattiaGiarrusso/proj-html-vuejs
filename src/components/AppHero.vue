@@ -132,6 +132,11 @@ export default {
     padding-top: 100px;
 }
 
+.ms-btn-blue:hover {
+    background-color: #1654b4;
+    color: white;
+}
+
 .hero-image {
     
     .ms-base-hero {

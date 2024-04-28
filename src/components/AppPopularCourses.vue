@@ -22,22 +22,20 @@ export default {
             <Popular></Popular>
 
             
-            <div class="row d-flex justify-content-center m-5">
-                <div class="col-2 d-flex justify-content-center ms-radius-none">
-                    <nav>
-                        <ul class="pagination ms-pagination">
-                            <li class="page-item border">
-                                <a class="ms-page-link page-link text-body-tertiary" href="#" aria-label="Previous">
-                                    <span aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
-                                </a>
-                            </li>
-                            <li class="page-item border">
-                                <a class="page-link ms-page-link text-body-tertiary" href="#" aria-label="Next">
-                                    <span aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+            <div class="row d-flex justify-content-center py-5">
+                <div class="col-2 d-flex justify-content-center">
+                    <div class="ms-pagination">
+                        <a class="ms-page-link text-body-tertiary" href="#" aria-label="Previous">
+                            <span aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
+                        </a>
+                    </div>
+                            
+                    <div class="ms-pagination">
+                        <a class="ms-page-link text-body-tertiary" href="#" aria-label="Next">
+                            <span aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
+                        </a>
+                    </div>
+
                 </div>
             </div>
 
@@ -53,11 +51,19 @@ section {
 }
 
 .ms-pagination {
-    border: 0px;
+    border: 1px solid lightgray;
+    padding: 8px 16px;
+    cursor: pointer;
+
+    &:hover {
+    background-color: #457992;
+    border-color: #457992;
+        i {
+        color: white;
+    }
 }
 
-.ms-page-link {
-    border: 0px;
+
 }
 
 

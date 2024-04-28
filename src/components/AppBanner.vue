@@ -33,6 +33,11 @@ export default {
     background-size: contain;
 }
 
+.ms-btn-blue:hover {
+    background-color: #1654b4;
+    color: white;
+}
+
 .row {
     padding: 50px 60px;
 

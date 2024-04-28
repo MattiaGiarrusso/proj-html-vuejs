@@ -122,9 +122,9 @@ export default {
             </nav>
     
             <div class="ms-btn-group d-flex gap-3">
-                <button class="btn ms-btn-white ms-fs-12" type="button"><i class="fa-regular fa-user"></i> Log in</button>
+                <button class="btn ms-btn-white ms-fs-12 rounded-pill" type="button"><i class="fa-regular fa-user"></i> Log in</button>
                 <button class="btn ms-btn-blue rounded-pill ms-fs-10" type="button">SIGN UP</button>
-                <button class="btn ms-btn-white ms-fs-12" type="button"><i class="fa-regular fa-bookmark"></i></button>
+                <button class="btn ms-btn-white ms-fs-12 rounded-circle" type="button"><i class="fa-regular fa-bookmark"></i></button>
             </div>
 
         </div>
@@ -177,6 +177,11 @@ header {
 
         button {
             padding: 0px 14px;
+
+            &:hover {
+                background-color: #1654b4;
+                color: white;
+            }
         }
     }
 }
