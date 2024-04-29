@@ -109,7 +109,7 @@ export default {
 
         </div>
 
-        <div class="d-flex">
+        <div class="d-flex align-items-center">
 
             <nav class="navbar">
                 <div class="pe-2">
@@ -124,7 +124,7 @@ export default {
             <div class="ms-btn-group d-flex gap-3">
                 <button class="btn ms-btn-white ms-fs-12 rounded-pill" type="button"><i class="fa-regular fa-user"></i> Log in</button>
                 <button class="btn ms-btn-blue rounded-pill ms-fs-10" type="button">SIGN UP</button>
-                <button class="btn ms-btn-white ms-fs-12 rounded-circle" type="button"><i class="fa-regular fa-bookmark"></i></button>
+                <button class="btn ms-btn-white ms-fs-12 rounded-pill" type="button"><i class="fa-regular fa-bookmark"></i></button>
             </div>
 
         </div>
@@ -151,13 +151,21 @@ header {
             
             a {
                 font-size: 10px;
-                color: #d1d1d1;  
+                color: #d1d1d1;
+                
+                &:hover {
+                color: #232323;
+                }
             }
 
         }
 
         .ms-link-header {
             color: #d1d1d1;
+
+            &:hover {
+                color: #232323;
+            }
         }
 
         .navbar-toggler {
@@ -174,6 +182,7 @@ header {
     }    
     
     .ms-btn-group {
+        height: 30px;
 
         button {
             padding: 0px 14px;
